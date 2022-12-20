@@ -17,12 +17,11 @@
 </head>
 <body>
    <!-- Navbar -->
-   <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
+   <nav class="navbar navbar-expand-lg  bg-primary-color" id="navbar">
     <div class="container py-3">
         <a href="" class="navbar-brand primary-color">
             <!-- logo -->
-            <img src="./assets/img/logo-sem fundo.png" alt="nomedoprojeto"> 
-            <span>Query's Cursos</span> 
+            <img src="./assets/img/logo-sem fundo.png" alt="Query's"> 
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items" aria-controls="navbar-items" aria-expanded="false" aria-label="toggle navgation">
             <i class="bi bi-list"></i>
@@ -55,20 +54,73 @@
    <!-- Slider -->
 <!-- Falta inserir -->
    <main>
-
-
+   
    </main>
 
    <!-- Footer -->
-   <footer class="container bg-dark-color" id="footer">
+   <footer class="container-fluid bg-dark-color" id="footer">
     <div class="container">
        <div class="row">
         <!-- footer top -->
         <div class="col-12" id="footer-top">
             <div class="row justify-content-between">
-                <div class="col-4"></div>
+                <div class="col-4"> <img  class="img" src="./assets/img/logo-sem fundo.png" alt="Query's"></div>
+                <div class="col-4" id="social-icons"> 
+                  <i class="bi bi-facebook"></i>
+                  <i class="bi bi-instagram"></i>
+                  <i class="bi bi-youtube"></i>
+                  <i class="bi bi-twitter"></i>
+              </div>
             </div>
         </div>
+        <!-- Footer Details -->
+        <div class="col-12" id="footer-details">
+          <div class="row">
+            <div class="col-12 col-md-4" id="news-container">
+              <h4>Fique por dentro das novidades</h4>
+              <p class="secondary-color">
+                Inscreva-se para saber em primeira mão
+              </p>
+              <form>
+                <div class="mb-30">
+                  <input 
+                  type="email" 
+                  class="form-control"
+                  placeholder="Digite o seu e-mail"
+                  />
+                </div>
+                <button class="btn btn-dark" type="submit"> Inscreva-se</button>
+              </form>
+            </div>
+            <div class="col-12 col-md-4" id=" contact-container">
+              <h4>Formas de contato</h4>
+              <p class="secondary-color"> (21)9999-99999</p>
+              <p class="secondary-color"> contato@querys.com</p>
+            </div>
+            <div class=" col-12 col-md-4" id="links-container">
+              <div class="row">
+                <h4>Você pode estar procurando por:</h4>
+                <div class="col-6">
+                  <ul class="list-unstyled">
+                    <li><a href="./quemsomos.html" class="secondary-color">Quem somos</a></li>
+                    <li><a href="./cursos.html" class="secondary-color">Cursos</a></li>
+                    <li><a href="./planos.html" class="secondary-color">Planos</a></li>
+                  </ul>
+                </div>
+                <div class="col-6">
+                <ul class="list-unstyled">
+                  <li><a href="#" class="secondary-color">Contratar</a></li>
+                  <li><a href="#" class="secondary-color">Trabalhe conosco</a></li>
+                  <li><a href="#" class="secondary-color">Sobre</a></li>
+                </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- Footer bootom -->
+      <div class="col-12" id="footer-bottom"></div>
        </div> 
     </div>
    </footer>

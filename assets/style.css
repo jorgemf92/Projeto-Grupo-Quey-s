@@ -12,6 +12,7 @@
 .bg-primary-color{
   background-color: var(--cor01);
 }
+
 .bg-secondary-color{
   background-color: var(--cor04);
 }
@@ -40,12 +41,6 @@
 .navbar-brand img{
   width:100px
 }
-/* texto span */
-.navbar-brand span{
-  font-size: 700;
-  font-size: 1.5em;
-  margin-left: 0.5em;
-}
 
 #navbar-items .navbar-nav{
   display: flex;
@@ -55,3 +50,41 @@
 #navbar-items .nav-item{
   margin: 0 1em;
 }
+
+.nav-item a{
+  text-decoration: none;
+}
+/* footer top */
+#footer{
+  padding: 3em 2em;
+}
+.img{
+  width: 50%;
+}
+#footer-top{
+  margin-bottom: 2em;
+}
+#footer-top,#footer-top i{
+  color: var(--cor04);
+}
+#social-icons{
+  text-align: right;
+}
+#social-icons i{
+  margin-right: 1em;
+  font-size: 1,5em;
+  cursor: pointer;
+}
+#social-icons i:hover{
+  color:var(--cor03);
+}
+/* footer details */
+#footer-details{
+  margin-bottom: 3 em;
+}
+ #news-container, #contact-container,#links-container{
+  padding: 0;
+  border: 0;
+  margin-bottom: 3 em;
+ }
+ 
