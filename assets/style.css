@@ -12,6 +12,9 @@
 .bg-primary-color{
   background-color: var(--cor01);
 }
+.bg-primary-color{
+  background-color: var(--cor01);
+}
 
 .bg-secondary-color{
   background-color: var(--cor04);
@@ -34,8 +37,8 @@
 #navbar a:hover{
   color: var(--cor03);
 }
-#navbar a.active{
-  border-bottom:  1px solid var(--cor04);
+.nav-lik active{
+  border-bottom:  1px solid var(--cor05);
 }
 /* logo */
 .navbar-brand img{
@@ -79,12 +82,55 @@
   color:var(--cor03);
 }
 /* footer details */
+.secondary-color{
+  color: #b1a4a4;
+}
 #footer-details{
   margin-bottom: 3 em;
 }
  #news-container, #contact-container,#links-container{
   padding: 0;
   border: 0;
-  margin-bottom: 3 em;
+  margin-bottom: 2em;
  }
  
+ #footer-details h4{
+  color: var(--cor04);
+  margin-bottom: 1.5em;
+ }
+
+#news-container input{
+  border-radius: 0;
+  border: none;
+}
+#links-container li{
+  margin-bottom: 0.5em;
+}
+#links-container a{
+  text-decoration: none;
+}
+#links-container a:hover{
+color: var(--cor02);
+}
+/* footer bootom */
+#footer-bottom{
+  border-top: 2px solid var(--cor02);
+  padding: 2em;
+}
+#footer-bottom i{
+  color: red;
+  margin-left: 0.3em;
+}
+@media(min-width:768px){
+  #news-container{
+    padding-right: 2em;
+  }
+  #links-container{
+    padding-left: 2em;
+  }
+  #contact-container{
+    padding: 1em;
+    border-left: 2px solid var(--cor02);
+    border-right: 2px solid var(--cor02);
+  }
+}
