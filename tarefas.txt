@@ -1,26 +1,7 @@
--Fazer a base no index:
- .finalizar os botões de logim e cadastro;
- .finalizar o footer;
- .finalizar a responsibilidade;
-
--Fazer o Style:
- .fazer os botões e o home ficarem  interativos;
- .fazer transições das imagens do curso;
- .fazer a introdução dos cursos com carrosel;
-
--Copiar a base nos demais html e adptar de acordo com a necessidade:
-    .tirar as funções que não importam;
-
--Fazer o JavaScript:
-
-Cabeçalho:
-
-https://www.youtube.com/watch?v=dIFNHeHTja0
+index:
+ .Adicionar o hoome;
+ .finalizar a responsibilidade do banner e resultados;
 
 
-
-Rodapé:
-
-​https://www.youtube.com/watch?v=zlVJHHDbtQY
 
 ​
