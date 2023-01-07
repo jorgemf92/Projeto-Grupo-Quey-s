@@ -1,7 +1,8 @@
 index:
- .finalizar a responsibilidade do banner e resultados;
+ .finalizar a responsibilidade;
  Ajustar textos, fontes e imagens;
  Conatgem com javascript;
+ fazer os comentários;
 
 
 
