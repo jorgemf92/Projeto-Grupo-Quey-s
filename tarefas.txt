@@ -1,6 +1,7 @@
 index:
- .Adicionar o hoome;
  .finalizar a responsibilidade do banner e resultados;
+ Ajustar textos, fontes e imagens;
+ Conatgem com javascript;
 
 
 
