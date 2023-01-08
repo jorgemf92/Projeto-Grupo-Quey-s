@@ -150,7 +150,6 @@
 .destaques .tite:hover{
     box-shadow: 0px 10px 67px 8px var(--cor03);
 }
-
 .destaques .tite img{
     width: 100px;
 }
