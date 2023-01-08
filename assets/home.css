@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
     --cor01: #260124;
     --cor02: #f266e9;
@@ -37,7 +38,7 @@
     color: var(--cor04);
     border: 2px solid var(--cor04);
 }
-
+/* resultados */
 .resultados{
     background: var(--cor03);
 }
@@ -70,4 +71,117 @@
 .resultados .resultados-numero p span{
     font-size: 30px;
     font-weight: 600;
+}
+/* Diferenciais */
+.diferenciais .container1{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 15px;
+   }
+.diferenciais .card{
+    width: 30%;
+    cursor: pointer;
+    padding: 30px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.diferenciais .card:hover{
+    box-shadow: 0px 10px 67px 8px var(--cor03);
+}
+
+.diferenciais .card img{
+    width: 100px;
+}
+.diferenciais .card .titulo{
+    margin: 13px 0;
+    font-weight: 600;
+}
+/* prova social */
+.low .container1{
+    display: flex;
+    align-items: center;
+}
+
+.low .low-img{
+    width: 50%;
+}
+.low .low-img img{
+    width: 100%;
+    border: 10px;
+}
+.low .low-text{
+    width: 50%;
+    padding-left: 90px;
+}
+.low .low-text h2{
+    font-size: 2.5em;
+}
+.low .low-text p{
+    margin: 20px 0;
+    color: var(--cor01);
+}
+.low .low-text p b{
+    color: var(--cor03);
+    font-size:20px ;
+}
+.low .low-text .amigos{
+    width: 200px;
+}
+/* destaques */
+.text1 .roxo h2{
+    display: flex;
+ align-items: center;
+ justify-content: center; 
+ border: solid 1px var(--cor01);
+}
+.destaques .container1{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 15px;
+   }
+.destaques .tite{
+    width: 30%;
+    cursor: pointer;
+    padding: 30px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+.destaques .tite:hover{
+    box-shadow: 0px 10px 67px 8px var(--cor03);
+}
+
+.destaques .tite img{
+    width: 100px;
+}
+.destaques .tite .titulo{
+    margin: 13px 0;
+    font-weight: 600;
+}
+.destaques .tite h3{
+    font-size: 50px;
+    color: var(--cor01);
+}
+.destaques .tite p{
+ font-style: oblique;
+}
+.destaques .tite .btn-dest{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    padding: 5px 2px;
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--cor01);
+    cursor: hand;
+    display: inline-block;
+    margin-top: 4px;
+    transition-duration: 0.4s;
+    background-color:var(--cor02);
+    border: 2px solid var(--cor01);
+}
+.destaques .tite .btn-dest:hover{
+    background-color: var(--cor01);
+    color: var(--cor04);
+    border: 2px solid var(--cor04);
 }
