@@ -1,6 +1,5 @@
 index:
  .finalizar a responsibilidade;
- Ajustar textos, fontes e imagens;
  Conatgem com javascript;
  fazer os comentários;
 
