@@ -132,8 +132,8 @@ main form input[type="submit"]:hover {
 section.images {
     width: 50vw;
     display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
     padding: 4rem;
 }
 
