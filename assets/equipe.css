@@ -10,6 +10,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
+/* intro */
 .team-section{
     width: 100%;
 }
@@ -37,6 +38,7 @@
     margin: 30px 0px;
     color:  var(--cor05);
 }
+/* cards */
 .team-section .container1 .team-card{
     width: 100%;
     display: grid;

@@ -37,8 +37,8 @@
 #navbar a:hover{
   color: var(--cor03);
 }
-.nav-lik active{
-  border-bottom:  1px solid var(--cor05);
+#nav-lik a.active{
+  border-bottom:  1px solid var(--cor02);
 }
 /* logo */
 .navbar-brand img{

@@ -1,8 +1,0 @@
-index:
- .finalizar a responsividade;
- Conatgem com javascript;
- fazer os comentários;
-
-
-
-​
