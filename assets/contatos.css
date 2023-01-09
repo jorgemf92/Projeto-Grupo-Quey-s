@@ -1,6 +1,8 @@
 main {
-	width: 940px;
-	margin: 0 auto;
+	width: 100%;
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
 }
 
 form {
@@ -17,14 +19,14 @@ form label, form legend {
 	display: block;
 	margin: 0 0 20px;
 	padding: 10px 25px;
-	width: 50%;
+	width: 100%;
 }
 
 .checkbox {
 	margin: 20px 0;
 }
 .enviar {
-	width:25%;
+	width:45%;
 	padding: 15px 0;
 	background: #260124;
 	color: white;
@@ -39,4 +41,17 @@ form label, form legend {
 .enviar:hover {
 	background: #d973d2;
 	transform: scale(1.2);
+}
+
+@media (max-width:700px){
+	form{
+		width: 100%;
+		text-align: center;
+        align-items: center;
+	}
+	.enviar{
+		width: 50%;
+		text-align: center;
+        align-items: center;
+	}
 }
