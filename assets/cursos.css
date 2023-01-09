@@ -14,7 +14,7 @@
   .container1 {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
     flex-wrap: wrap;
   }
   
@@ -41,6 +41,7 @@
     min-width: 100%;
     width:auto;
     height: 100%;
+    border-radius: 20px;
   }
   
   /* Card Body */
@@ -113,3 +114,9 @@
     transform: scale3d(1.1, 1.1, 1);
   }
   
+ .texto1{
+  font-size: 70px;
+  margin-top: 10px;
+  text-align: center;
+  color: #000;
+ }
