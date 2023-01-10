@@ -22,6 +22,17 @@
     background-position: center;
     text-align: center;
 }
+.menina{
+    width: 500px;
+    
+ 
+
+    align-items: left;
+}
+.pc{
+  width: 600px;
+
+}
 .botao{
     width: 200px;
     text-align: center;
