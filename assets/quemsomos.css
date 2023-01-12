@@ -1,0 +1,50 @@
+main {
+	width: 70%;
+	margin: 0 auto;
+
+}
+
+/*texto da imgem*/
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+
+}
+
+.principal p {
+	margin: 0 0 1em;
+    font-size: 15px;
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+
+/*imagem a esquerda "curso html e css"*/
+.cursos {
+	width: 400px;
+	float: left;
+	margin: 0 1.6rem 0 0;
+
+}
+
+/*segunda imagem a direita "Professores"*/
+ 
+.imgprofessores {
+    width: 400px;
+	float: right;
+	margin: 0 1.6rem 0 0;
+
+}
+
+/*Terceira imagem a esquerda "aprendizado"*/
+
+.imgaprendizado {
+        width: 400px;
+        float: left;
+        margin: 0 1.6rem 0 0;
+    }

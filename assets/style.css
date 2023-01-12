@@ -134,3 +134,9 @@ color: var(--cor02);
     border-right: 2px solid var(--cor02);
   }
 }
+button:hover{
+  border: 1px solid #f266e9;
+  background: #f266e9;
+  color: #fff;
+  transform: scale(1.10);
+}
