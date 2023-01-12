@@ -91,7 +91,9 @@ button{
 }
 /* Já está no Style
 button:hover{
-    border: 1px solid #8B634A;
+    border: 1px solid #8B634A;    
+
+    
     background: #8B634A;
     color: #fff;
     transform: scale(1.10);
