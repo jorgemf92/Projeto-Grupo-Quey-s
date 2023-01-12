@@ -1,4 +1,0 @@
-Ajustar botão no banner;
-ajustar responsividade geral;
-ajustar textos do destaques;
-ajustar imagem de fundo mobile;

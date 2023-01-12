@@ -81,12 +81,9 @@
 }
 
 
-
-
 .btn{
     width: 200px;
     text-align: center;
-    padding: 16px 32px;
     text-decoration: none;
     color: var(--cor01);
     cursor: hand;
@@ -258,11 +255,12 @@
         flex-direction: column;
     }
     .resultados .resultado-text, .resultados .resultados-numero{
-        width: 100%;
+        width: 80%;
         text-align: center;
 
     }
      .resultados-numero{
+        width: 100%;
         margin-top: 35px;
     }
     .diferenciais .container1{
@@ -276,9 +274,12 @@
     .low .container1{
         flex-direction: column-reverse;
     }
-    .low .low-text, .low .low-img{
+    .low .low-text{
         width: 100%;
-        text-align: center;
+        align-items: center;
+    }
+    .low .low-img{
+        display: none;
     }
     .destaques .container1{
         flex-direction: column;
@@ -312,11 +313,15 @@
     .banner-container .banner .menina{
         display: none;
     }
-    .banner-container .banner{
-        background-image: url(./img/banner.png);
+    .banner-container .banner {
+        width: 100%;
+        height: 200px;
     }
-    .banner-container .banner .content h3{
-        font-size: 50px;
-        color: var(--cor02);
+    .banner-container .banner  .content h3{
+        font-size: 15px;
+    }
+    .banner-container .banner  .content .btn{
+        font-size: 12px;
+        width: 100px;
     }
 }
